@@ -1,0 +1,111 @@
+/* * {
+    border: 1px solid red;
+    box-sizing: border-box;
+} */
+
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.welcome-div {
+  border: 0px;
+  padding: 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 8px;
+  max-width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.quote-div {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20rem;
+  margin-top: 5rem;
+}
+.quote-text {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  max-width: 600px;
+}
+
+.button-div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+footer {
+  padding: 20px;
+  bottom: 0;
+  position: absolute;
+  width: 50%;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+a {
+  all: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  h4 {
+    font-size: 0.6rem;
+  }
+  .button-div {
+    margin-top: 2rem;
+  }
+  img {
+    max-height: 150px;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+}
